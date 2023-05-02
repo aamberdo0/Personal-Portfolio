@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/cc63fd1b91.js" crossorigin="anonymous"></script>
+    <title>Amber Do</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <!--nav bar-->
+   <header class="header">
+        <a class="logo"href="#home">Amber Do</a>
+        <nav class="nav">
+            <ul class="nav-links" id="sidemenu">
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div id="menu-btn" class="fas fa-times" onclick="closemenu()"></div>
+            </ul>
+            <div id="menu-btn" class="fas fa-bars" onclick="openmenu()"></div>
+        </nav>
+        
+       
+   </header>
+    
+   <!--hero section-->
+   <section class="hero" id="hero">
+        <div class="hero-intro">
+            <h1 class="main">Hello, my name is Amber Do<span class="emoji"> 👋</span></h1> 
+            <h3 class="intro">A Junior Web Developer who is enthusiastic 
+                in making creative work. <br>My ultimate goal is to create a fun and 
+                User-Friendly website without difficulty </h3>
+            <div class="btn-div">
+                <a href="AmberDoResume.pdf" download class="btn">My Resume</a>
+                <a href="#about " class="btn1">About</a>
+            </div>
+        </div>
+    </section>
+
+    <!--projects section-->
+    <section id="project" class="project">
+        <div class="container">
+            <h1 class="title">My Projects</h1>
+            <div class="work-list">
+                <div class="work" id="match">
+                    <img src="cropped2.png">
+                    <div class="layer" >
+                        <p class="sub-title" id="match">Match N' Treat</p>
+                        <p class="description" id="match">A group project that designed a Mental Health 
+                            dating app matches patients with therapists based 
+                            on user's own criteria that helps support their mental health needs
+                        </p>
+                        </p>
+                        <div class="btn-div1">
+                            <a href="https://www.figma.com/proto/roTGABACInkvcl506AKy8B/Therapist?
+                            node-id=3-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2" class="btn2">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://www.figma.com/file/roTGABACInkvcl506AKy8B/Therapist?node-id=0%3A1&t=95DbSk0UKBfpVBqX-1" 
+                            class="btn2"><i class="fa-brands fa-figma"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work" id="maiko">
+                    <img src="yas.png">
+                    <div class="layer"  >
+                        <p class="sub-title" id="maiko">Maiko Bakery</p>
+                        <p class="description" id="maiko">A basic website that allows customers to log in/ register,
+                                 order, contact and search the available products.
+                            </p>
+                            </p>
+                            <div class="btn-div1">
+                                <a class="btn2" href="https://do10.dev.fast.sheridanc.on.ca/Bakery/" class="btn2">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a class="btn2"href="https://github.com/aamberdo0/Maiko-Bakery" 
+                                    class="btn2"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                           
+                    </div>
+                </div>
+                <div class="work" id="coming">
+                    <img src="coming ..png">
+                    <div class="layer">
+                        <p class="sub-title">Coming Soon</p>
+                        <p class="description">A basic calculator that can be used in daily life.
+                            </p>
+                            </p>
+                            <div class="btn-div1">
+                                <a href="" class="btn2">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="" 
+                                    class="btn2"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!--About section-->
+     <section class="about" id="about">
+        <div class="container">
+            <h1 class="title">About me</h1>
+            <div class="content">
+                <h3 class="intro">I'm a motivated second-year student looking for 
+                    an opportunity to advance my skill in an innovative environment. With 
+                    knowledge of UX, I'm able to apply new features in visual design and focused on creating 
+                    enjoyable experiences for user in using products. 
+                </h3>
+                <div class="content">
+                    <h4 class="sub-title">2023. Sheridan College</h4>
+                    <h5 class="intro">I'm currently studying Software Enginerring at Sheridan College. 
+                        There, I was learnt on how to use basic coding languages: HTML, CSS, Javascript in 
+                        builiding website.
+                    </h5>
+                </div>
+                <div class="content">
+                    <h4 class="sub-title">2020. Canadian Vietnamese Association on PEI</h4>
+                    <h5 class="intro">During the pandemic, I volunteered in a Vietnamese community where 
+                        I used video-editing skill to design posters/brochures and marketing videos 
+                        for Career Sessions and Happy Friday Program. I was able to communicate with clients advance
+                        and team in delivering these projects. 
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--contact section-->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Get In Touch</h1>
+                    <p class="description">Have any questions?</p>
+                    <p class="description">Leave me a message or you can find me at</p>
+                    <div class="icons">
+                        <p class="sub"><i class="fa-solid fa-envelope"><a href="mailto: anhdosheridan@gmail.com" target="_blank"></i>anhdosheridan@gmail.com</a></p>
+                        <p class="sub"><i class="fa-solid fa-phone"></i><a href="tel:6476747497" target="_blank">647-674-7497</a></p>
+                        <p class="sub"><i class="fa-brands fa-github"></i><a href="https://github.com/aamberdo0" target="_blank">GitHub</a></p>
+                        <p class="sub"><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/amber-do04/" target="_blank">LinkedIn</a></p>
+                    </div>
+                   
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/mdovbepd" method="POST">
+                        <input type="text" placeholder="Enter your name" required name="name" id="name">
+                        <input type="email" placeholder="Enter your email" required name="email" id="email">
+                        <textarea name="message" id="message" rows="8" placeholder="Enter your message"></textarea>
+                        <input type="submit" value="Send" id="bttn" class="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright © Amber Do. All rights reserved </p>
+    </footer>
+<script src="script.js"></script>
+
+
+
+
+</body>
+</html>
